@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character & Word Counter</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- js files -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Character & Word Counter</h1>
+      <div class="fas fa-moon" id="theme" title="DarkMode"></div>
+      <div class="box">
+        <textarea class="area" id="box"></textarea>
+        <div class="message">
+          <p>Total Characters : <span id="char">0</span></p>
+          <p>Total Words : <span id="word">0</span></p>
+        </div>
+        <h3>options</h3>
+        <div class="converter">
+          <button id="upper">uppercase</button>
+          <button id="lower">lowercase</button>
+          <button id="capital">capitalize</button>
+        </div>
+        <div class="converter">
+          <button id="center">center</button>
+          <button id="left">left</button>
+          <button id="right">right</button>
+          <button id="justify">justify</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
